@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+IMPLEMENTATION MODULE $1;
+	$2
+END $1.
+
+]]></content>
+	<description>IMPLEMENTATION MODULE</description>
+    <tabTrigger>IMPLEMENTATION</tabTrigger>
+    <scope>source.modula2</scope>
+</snippet>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippet>
+    <content><![CDATA[
+BEGIN
+	$1
+END;
+]]></content>
+	<description>BEGIN ... END</description>
+    <tabTrigger>BEGIN</tabTrigger>
+    <scope>source.modula2</scope> 
+</snippet>

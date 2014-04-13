@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+FOR $1 := $2 DOWNTO $3 DO
+	$4
+END;$5
+]]></content>
+	<description>FOR DOWNTO</description>
+    <tabTrigger>FOR</tabTrigger>
+    <scope>source.modula2</scope>
+</snippet>

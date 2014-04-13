@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippet>
+    <content><![CDATA[
+IF ($1) THEN
+	$2
+END;$3
+]]></content>
+	<description>IF ... END</description>
+    <tabTrigger>IF</tabTrigger>
+    <scope>source.modula2</scope> 
+</snippet>

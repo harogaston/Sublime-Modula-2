@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+WHILE ($1) DO
+	$2
+END;$3
+]]></content>
+	<description>WHILE END</description>
+    <tabTrigger>WHILE</tabTrigger>
+    <scope>source.modula2</scope> 
+</snippet>

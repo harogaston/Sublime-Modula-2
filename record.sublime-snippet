@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+RECORD
+	$1 : $2;
+	$3
+END;$4
+]]></content>
+	<description>RECORD</description>
+    <tabTrigger>RECORD</tabTrigger>
+    <scope>source.modula2</scope>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+MODULE ${1};
+$0
+END ${1}.
+
+]]></content>
+	<description>MODULE</description>
+	<tabTrigger>MODULE</tabTrigger>
+	<scope>source.modula2</scope>
+</snippet>

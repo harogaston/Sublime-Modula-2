@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+DEFINITION MODULE $1;
+	$2
+END $1.
+
+]]></content>
+	<description>DEFINITION MODULE</description>
+    <tabTrigger>DEFINITION</tabTrigger>
+    <scope>source.modula2</scope>
+</snippet>

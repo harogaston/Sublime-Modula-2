@@ -1,0 +1,13 @@
+{
+	"scope": "source.modula2",
+	"completions":
+	[
+		"modula2",
+
+		{ "trigger": "AND", "contents": "AND;" },
+		{ "trigger": "CONST", "contents": "CONST;" },
+		{ "trigger": "VAR", "contents": "VAR\n\t" },
+		{ "trigger": "RETURN", "contents": "RETURN($1);$2" },
+		{ "trigger": "DISPOSE", "contents": "DISPOSE($1);$2" },
+	]
+}
