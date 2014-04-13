@@ -1,4 +1,16 @@
 Sublime-Modula-2-Syntax
 =======================
 
-This package provides syntax highlighting capabilities for Sublime Text 2.
+Es un paquete para [Sublime Text 2][sublime] que incluye una gran variedad de snippets, asi como autocompletado de codigo para el lenguaje de programacion [Pascal][pascal_lang].
+
+//This package provides syntax highlight, snippets and autocomplete capabilities for the Modula-2 programming language in Sublime Text 2.
+
+### Instalacion (sin el Control de paquetes) ###
+Si no posee el [Control de paquetes][package_control]  de [Sublime Text 2][sublime] puede clonar este repositorio y agregarlo a su carpeta de paquetes instalados:
+  
+    git clone git://github.com/diniremix/sublime-pascal.git
+
+
+[sublime]: http://www.sublimetext.com/
+[package_control]: http://wbond.net/sublime_packages/package_control
+[pascal_lang]:http://es.wikipedia.org/wiki/Pascal_(lenguaje_de_programaci%C3%B3n)
