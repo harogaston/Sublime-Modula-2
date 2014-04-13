@@ -1,0 +1,6 @@
+{
+"cmd": ["xc =m ${file}"],
+"selector": "source.modula2",
+"working_dir": "${file_path}",
+"shell": true
+}
