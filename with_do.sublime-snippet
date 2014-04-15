@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+WITH ($1) DO
+	BEGIN
+		${2}
+	END;
+]]></content>
+	<description>WITH...DO</description>
+	<tabTrigger>WITH</tabTrigger>
+	<scope>source.modula2</scope>
+</snippet>
