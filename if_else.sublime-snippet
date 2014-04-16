@@ -5,9 +5,9 @@ IF ($1) THEN
 	$2
 ELSE
 	$3
-END;$4
+END;
 ]]></content>
 	<description>IF ... ELSE</description>
     <tabTrigger>IF</tabTrigger>
-    <scope>source.modula2</scope> 
+    <scope>source.modula2</scope>
 </snippet>

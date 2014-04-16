@@ -2,9 +2,9 @@
     <content><![CDATA[
 WHILE ($1) DO
 	$2
-END;$3
+END;
 ]]></content>
 	<description>WHILE END</description>
     <tabTrigger>WHILE</tabTrigger>
-    <scope>source.modula2</scope> 
+    <scope>source.modula2</scope>
 </snippet>

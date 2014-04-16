@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <snippet>
     <content><![CDATA[
-ARRAY [$1] OF $2;$3
+ARRAY [$1] OF $2;
 ]]></content>
 	<description>ARRAY OF</description>
     <tabTrigger>ARRAY</tabTrigger>
-    <scope>source.modula2</scope> 
+    <scope>source.modula2</scope>
 </snippet>

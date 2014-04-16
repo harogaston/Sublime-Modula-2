@@ -2,9 +2,9 @@
     <content><![CDATA[
 FOR $1 := $2 TO $3 DO
 	$4
-END;$5
+END;
 ]]></content>
 	<description>FOR TO</description>
     <tabTrigger>FOR</tabTrigger>
-    <scope>source.modula2</scope> 
+    <scope>source.modula2</scope>
 </snippet>

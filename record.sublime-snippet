@@ -3,7 +3,7 @@
 RECORD
 	$1 : $2;
 	$3
-END;$4
+END;
 ]]></content>
 	<description>RECORD</description>
     <tabTrigger>RECORD</tabTrigger>

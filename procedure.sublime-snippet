@@ -1,9 +1,9 @@
 <snippet>
     <content><![CDATA[
-PROCEDURE $1($2)$3;
+PROCEDURE $1 ($2)$3;
 BEGIN
 	$4
-END;$5
+END $1;
 ]]></content>
 	<description>PROCEDURE</description>
     <tabTrigger>PROCEDURE</tabTrigger>

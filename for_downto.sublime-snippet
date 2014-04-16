@@ -2,7 +2,7 @@
     <content><![CDATA[
 FOR $1 := $2 DOWNTO $3 DO
 	$4
-END;$5
+END;
 ]]></content>
 	<description>FOR DOWNTO</description>
     <tabTrigger>FOR</tabTrigger>

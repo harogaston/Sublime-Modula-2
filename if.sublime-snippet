@@ -3,9 +3,9 @@
     <content><![CDATA[
 IF ($1) THEN
 	$2
-END;$3
+END;
 ]]></content>
 	<description>IF ... END</description>
     <tabTrigger>IF</tabTrigger>
-    <scope>source.modula2</scope> 
+    <scope>source.modula2</scope>
 </snippet>

@@ -4,7 +4,7 @@ CASE ($1) OF
 	$2: $3 |
 	$4: $5
 	ELSE $6;
-END;$7
+END;
 ]]></content>
 	<description>CASE OF</description>
     <tabTrigger>CASE</tabTrigger>

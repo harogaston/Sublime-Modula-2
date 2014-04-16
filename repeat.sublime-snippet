@@ -2,9 +2,9 @@
     <content><![CDATA[
 REPEAT
 	$2
-UNTIL ($1);$3
+UNTIL ($1);
 ]]></content>
 	<description>REPEAT UNTIL</description>
     <tabTrigger>REPEAT</tabTrigger>
-    <scope>source.modula2</scope> 
+    <scope>source.modula2</scope>
 </snippet>
