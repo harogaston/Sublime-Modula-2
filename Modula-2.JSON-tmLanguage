@@ -12,7 +12,7 @@
                     "name": "entity.name.function.modula2"
                 }
             }, 
-            "match": "\\b(?i:(PROCEDURE|DEFINITION MODULE|IMPLEMENTATION MODULE|MODULE))\\b\\s+(\\w+(\\.\\w+)?)"
+            "match": "\\b(PROCEDURE|DEFINITION MODULE|IMPLEMENTATION MODULE|MODULE)\\b\\s+(\\w+(\\.\\w+)?)"
         }, 
         {
             "comment": "Reconocimiento de las palabras de fin.", 
@@ -24,7 +24,7 @@
                     "name": "entity.name.function.modula2"
                 }
             }, 
-            "match": "\\b(?i:(END))\\b\\s+(\\w+(\\.\\w+)?)"
+            "match": "\\b(END)\\b\\s+(\\w+(\\.\\w+)?)"
         }, 
         {
             "comment": "Definicion de identificadores predefinidos.", 
@@ -37,12 +37,12 @@
                 }
             }, 
             "name": "meta.function.modula2", 
-            "match": "\\b(?i:(ABS|ADDRES|ADR|BITSET|BOOLEAN|BYTE|CAP|CARDINAL|CHAR|CHR|DEC|DISPOSE|EXCL|FALSE|FLOAT|HALT|HIGH|INC|INCL|INTEGER|LONGCARD|LONGINT|LONGREAL|LONGWORD|NEW|NULLPROC|ODD|ORD|PROC|REAL|SHORTADDR|SHORTCARD|SHORTINT|SIZE|TRUE|TRUNC|VAL|VSIZE|WORD))\\b"
+            "match": "\\b(ABS|ADDRES|ADR|BITSET|BOOLEAN|BYTE|CAP|CARDINAL|CHAR|CHR|DEC|DISPOSE|EXCL|FALSE|FLOAT|HALT|HIGH|INC|INCL|INTEGER|LONGCARD|LONGINT|LONGREAL|LONGWORD|NEW|NULLPROC|ODD|ORD|PROC|REAL|SHORTADDR|SHORTCARD|SHORTINT|SIZE|TRUE|TRUNC|VAL|VSIZE|WORD)\\b"
         }, 
         {
             "comment": "Definicion de palabras reservadas.", 
             "name": "keyword.control.modula2",
-            "match": "\\b(?i:(AND|ARRAY|BEGIN|BY|CASE|CONST|DIV|DO|ELSE|ELSIF|END|EXIT|EXPORT|FOR|FORWARD|FROM|GOTO|IF|IMPORT|IN|LABEL|LOOP|MOD|NOT|OF|OR|POINTER|QUALIFIED|RECORD|REPEAT|RETURN|SET|THEN|TO|DOWNTO|TYPE|UNTIL|VAR|WHILE|WITH|NIL))\\b"
+            "match": "\\b(AND|ARRAY|BEGIN|BY|CASE|CONST|DIV|DO|ELSE|ELSIF|END|EXIT|EXPORT|FOR|FORWARD|FROM|GOTO|IF|IMPORT|IN|LABEL|LOOP|MOD|NOT|OF|OR|POINTER|QUALIFIED|RECORD|REPEAT|RETURN|SET|THEN|TO|DOWNTO|TYPE|UNTIL|VAR|WHILE|WITH|NIL)\\b"
         }, 
         {
             "captures": {

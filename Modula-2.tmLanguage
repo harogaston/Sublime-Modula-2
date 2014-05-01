@@ -28,7 +28,7 @@
 			<key>comment</key>
 			<string>Reconocimiento de las palabras de inicio.</string>
 			<key>match</key>
-			<string>\b(?i:(PROCEDURE|DEFINITION MODULE|IMPLEMENTATION MODULE|MODULE))\b\s+(\w+(\.\w+)?)</string>
+			<string>\b(PROCEDURE|DEFINITION MODULE|IMPLEMENTATION MODULE|MODULE)\b\s+(\w+(\.\w+)?)</string>
 		</dict>
 		<dict>
 			<key>captures</key>
@@ -47,7 +47,7 @@
 			<key>comment</key>
 			<string>Reconocimiento de las palabras de fin.</string>
 			<key>match</key>
-			<string>\b(?i:(END))\b\s+(\w+(\.\w+)?)</string>
+			<string>\b(END)\b\s+(\w+(\.\w+)?)</string>
 		</dict>
 		<dict>
 			<key>captures</key>
@@ -66,7 +66,7 @@
 			<key>comment</key>
 			<string>Definicion de identificadores predefinidos.</string>
 			<key>match</key>
-			<string>\b(?i:(ABS|ADDRES|ADR|BITSET|BOOLEAN|BYTE|CAP|CARDINAL|CHAR|CHR|DEC|DISPOSE|EXCL|FALSE|FLOAT|HALT|HIGH|INC|INCL|INTEGER|LONGCARD|LONGINT|LONGREAL|LONGWORD|NEW|NULLPROC|ODD|ORD|PROC|REAL|SHORTADDR|SHORTCARD|SHORTINT|SIZE|TRUE|TRUNC|VAL|VSIZE|WORD))\b</string>
+			<string>\b(ABS|ADDRES|ADR|BITSET|BOOLEAN|BYTE|CAP|CARDINAL|CHAR|CHR|DEC|DISPOSE|EXCL|FALSE|FLOAT|HALT|HIGH|INC|INCL|INTEGER|LONGCARD|LONGINT|LONGREAL|LONGWORD|NEW|NULLPROC|ODD|ORD|PROC|REAL|SHORTADDR|SHORTCARD|SHORTINT|SIZE|TRUE|TRUNC|VAL|VSIZE|WORD)\b</string>
 			<key>name</key>
 			<string>meta.function.modula2</string>
 		</dict>
@@ -74,7 +74,7 @@
 			<key>comment</key>
 			<string>Definicion de palabras reservadas.</string>
 			<key>match</key>
-			<string>\b(?i:(AND|ARRAY|BEGIN|BY|CASE|CONST|DIV|DO|ELSE|ELSIF|END|EXIT|EXPORT|FOR|FORWARD|FROM|GOTO|IF|IMPORT|IN|LABEL|LOOP|MOD|NOT|OF|OR|POINTER|QUALIFIED|RECORD|REPEAT|RETURN|SET|THEN|TO|DOWNTO|TYPE|UNTIL|VAR|WHILE|WITH|NIL))\b</string>
+			<string>\b(AND|ARRAY|BEGIN|BY|CASE|CONST|DIV|DO|ELSE|ELSIF|END|EXIT|EXPORT|FOR|FORWARD|FROM|GOTO|IF|IMPORT|IN|LABEL|LOOP|MOD|NOT|OF|OR|POINTER|QUALIFIED|RECORD|REPEAT|RETURN|SET|THEN|TO|DOWNTO|TYPE|UNTIL|VAR|WHILE|WITH|NIL)\b</string>
 			<key>name</key>
 			<string>keyword.control.modula2</string>
 		</dict>
