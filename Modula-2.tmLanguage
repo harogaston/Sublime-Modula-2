@@ -79,20 +79,8 @@
 			<string>keyword.control.modula2</string>
 		</dict>
 		<dict>
-			<key>begin</key>
-			<string>(\(\*)</string>
-			<key>captures</key>
-			<dict>
-				<key>0</key>
-				<dict>
-					<key>name</key>
-					<string>punctuation.definition.comment.modula2</string>
-				</dict>
-			</dict>
-			<key>end</key>
-			<string>(\*\))</string>
-			<key>name</key>
-			<string>comment.block.modula2.one</string>
+			<key>include</key>
+			<string>#block_comment</string>
 		</dict>
 		<dict>
 			<key>begin</key>
@@ -131,7 +119,7 @@
 			<key>match</key>
 			<string>\b((0(x|X)[0-9a-fA-F]*)|(([0-9]+\.?[0-9]*)|(\.[0-9]+))((e|E)(\+|-)?[0-9]+)?)(L|l|UL|ul|u|U|F|f|ll|LL|ull|ULL)?\b</string>
 			<key>name</key>
-			<string>constant.numeric.pascal</string>
+			<string>constant.numeric.modula2</string>
 		</dict>
 		<dict>
 			<key>match</key>
@@ -140,6 +128,35 @@
 			<string>variable.parameter.function.modula2</string>
 		</dict>
 	</array>
+    <key>repository</key>
+    <dict>
+        <key>block_comment</key>
+        <dict>
+            <key>applyEndPatternLast</key>
+            <integer>1</integer>
+            <key>begin</key>
+            <string>\(\*</string>
+            <key>captures</key>
+            <dict>
+                <key>0</key>
+                <dict>
+                    <key>name</key>
+                    <string>punctuation.definition.comment.modula2</string>
+                </dict>
+            </dict>
+            <key>patterns</key>
+            <array>
+                <dict>
+                    <key>include</key>
+                    <string>#block_comment</string>
+                </dict>
+            </array>
+            <key>end</key>
+            <string>\*\)</string>
+            <key>name</key>
+            <string>comment.block.modula2.one</string>
+        </dict>
+    </dict>
 	<key>scopeName</key>
 	<string>source.modula2</string>
 	<key>uuid</key>
