@@ -123,7 +123,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(\(|\)|\+|-|\*|/|:|;|\.|\^|=|:=)</string>
+			<string>(\(|\)|\+|-|\*|/|:|;|\.|\^|=|:=|&lt;|&gt;|#)</string>
 			<key>name</key>
 			<string>variable.parameter.function.modula2</string>
 		</dict>
